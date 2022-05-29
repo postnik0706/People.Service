@@ -1,4 +1,5 @@
-﻿using PeopleViewer.Presentation;
+﻿using PeopleViewer.Common;
+using PeopleViewer.Presentation;
 using System.Windows;
 
 namespace PeopleViewer
@@ -7,10 +8,10 @@ namespace PeopleViewer
     {
         PeopleViewModel viewModel;
 
-        public PeopleViewerWindow()
+        public PeopleViewerWindow(PeopleViewModel peopleViewerModel)
         {
             InitializeComponent();
-            viewModel = new PeopleViewModel();
+            viewModel = peopleViewerModel;
             this.DataContext = viewModel;
         }
 
