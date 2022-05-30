@@ -101,10 +101,19 @@
       <Project>{83cb11bd-4184-4ba1-b78e-1a44e69cfe08}</Project>
       <Name>PeopleViewer.View</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PersonDataReader.CSV\PersonDataReader.CSV.csproj">
+      <Project>{a46d85fa-2420-42d0-9989-80eed26e1f04}</Project>
+      <Name>PersonDataReader.CSV</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PersonDataReader.Service\PersonDataReader.Service.csproj">
       <Project>{CA99E8C7-8790-4FA2-9787-C8E5DB9E356E}</Project>
       <Name>PersonDataReader.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="People.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
