@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.Presentation.Tests", "PeopleViewer.Presentation.Tests\PeopleViewer.Presentation.Tests.csproj", "{6601C75F-1C09-4CFF-979B-1AC18A6DC343}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDataReader.Csv.Tests", "PersonDataReader.Csv.Tests\PersonDataReader.Csv.Tests.csproj", "{4C57DE1C-8083-4D09-8046-710190A790E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{6601C75F-1C09-4CFF-979B-1AC18A6DC343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6601C75F-1C09-4CFF-979B-1AC18A6DC343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6601C75F-1C09-4CFF-979B-1AC18A6DC343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C57DE1C-8083-4D09-8046-710190A790E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C57DE1C-8083-4D09-8046-710190A790E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C57DE1C-8083-4D09-8046-710190A790E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C57DE1C-8083-4D09-8046-710190A790E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{C28EC472-1530-4F1C-85F4-2A62D800C847} = {C3D5F2F8-736B-4DCD-B829-8BFED74BA493}
 		{4A01D253-9148-4708-9B36-6EA0B4641266} = {C3D5F2F8-736B-4DCD-B829-8BFED74BA493}
 		{6601C75F-1C09-4CFF-979B-1AC18A6DC343} = {6B58AC6E-94C4-4E6C-A0AD-0D254CA710A1}
+		{4C57DE1C-8083-4D09-8046-710190A790E0} = {6B58AC6E-94C4-4E6C-A0AD-0D254CA710A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCF92DCF-3599-4010-BB06-FFF5E0A25037}
