@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDataReader.CSV", "Per
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDataReader.SQL", "PersonDataReader.SQL\PersonDataReader.SQL.csproj", "{C28EC472-1530-4F1C-85F4-2A62D800C847}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonDataReader.Decorators", "PersonDataReader.Decorators\PersonDataReader.Decorators.csproj", "{4A01D253-9148-4708-9B36-6EA0B4641266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C28EC472-1530-4F1C-85F4-2A62D800C847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C28EC472-1530-4F1C-85F4-2A62D800C847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C28EC472-1530-4F1C-85F4-2A62D800C847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A01D253-9148-4708-9B36-6EA0B4641266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A01D253-9148-4708-9B36-6EA0B4641266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A01D253-9148-4708-9B36-6EA0B4641266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A01D253-9148-4708-9B36-6EA0B4641266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{83CB11BD-4184-4BA1-B78E-1A44E69CFE08} = {CE7FB781-9425-4E1C-A917-D032FC36836C}
 		{A46D85FA-2420-42D0-9989-80EED26E1F04} = {C3D5F2F8-736B-4DCD-B829-8BFED74BA493}
 		{C28EC472-1530-4F1C-85F4-2A62D800C847} = {C3D5F2F8-736B-4DCD-B829-8BFED74BA493}
+		{4A01D253-9148-4708-9B36-6EA0B4641266} = {C3D5F2F8-736B-4DCD-B829-8BFED74BA493}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCF92DCF-3599-4010-BB06-FFF5E0A25037}
