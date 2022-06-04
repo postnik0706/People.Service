@@ -8,4 +8,10 @@
     <ProjectReference Include="..\PeopleViewer.Common\PeopleViewer.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="People.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
